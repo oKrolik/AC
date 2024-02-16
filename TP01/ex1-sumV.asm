@@ -2,7 +2,7 @@
 seq: .word   3, 5, -1, 19, 32
 
 .text
-      la   a0, seq    # Para efeitos de teste: endere�o de
+      la   a0, seq    # Para efeitos de teste: endereço de
       li   a1, 5      # seq em a0 e tamanho de seq em a1.
       jal  ra, soma   # Invoca sub-rotina.
       li   a7, 10     # Syscall para
